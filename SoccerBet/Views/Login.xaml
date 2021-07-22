@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:TextInputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             x:Class="SoccerBet.Views.Login">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="EntryNormalStyle"  TargetType="Entry">
+                <Setter Property="TextColor" Value="#007DE4"/>
+                <Setter Property="FontSize" Value="15"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+
+
+
+        <StackLayout>
+            
+            <TextInputLayout:SfTextInputLayout 
+                                    ContainerType="Outlined"
+                                    Margin="14,10,33,0"
+                                    Hint="Name">
+                <Entry  TextColor="#212121" 
+                                    Style="{StaticResource EntryNormalStyle}"
+                                    Text="{Binding Text,Mode=TwoWay}" />
+            </TextInputLayout:SfTextInputLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
