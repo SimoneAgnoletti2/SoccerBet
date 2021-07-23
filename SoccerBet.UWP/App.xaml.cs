@@ -106,6 +106,7 @@ using Syncfusion.XForms.UWP.RichTextEditor;
 using Syncfusion.XForms.UWP.EffectsView;
 
 using Syncfusion.XForms.UWP.Shimmer;
+using Syncfusion.XForms.UWP.Graphics;
 
 namespace SoccerBet.UWP
 {
@@ -180,9 +181,11 @@ namespace SoccerBet.UWP
 
 				assembliesToInclude.Add(typeof(SfRadioButtonRenderer).GetTypeInfo().Assembly);
 
-				assembliesToInclude.Add(typeof(SfCheckBoxRenderer).GetTypeInfo().Assembly);
+                assembliesToInclude.Add(typeof(SfCheckBoxRenderer).GetTypeInfo().Assembly);
 
-				assembliesToInclude.Add(typeof(SfTabViewRenderer).GetTypeInfo().Assembly);
+                assembliesToInclude.Add(typeof(SfGradientViewRenderer).GetTypeInfo().Assembly);
+
+                assembliesToInclude.Add(typeof(SfTabViewRenderer).GetTypeInfo().Assembly);
 
 				assembliesToInclude.Add(typeof(SfDiagramRenderer).GetTypeInfo().Assembly);
 

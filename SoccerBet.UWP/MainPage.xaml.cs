@@ -22,6 +22,8 @@ using Syncfusion.SfPullToRefresh.XForms.UWP;
 using Syncfusion.ListView.XForms.UWP;
 
 using Syncfusion.XForms.UWP.PopupLayout;
+using Windows.UI.ViewManagement;
+using Windows.UI.Core;
 
 namespace SoccerBet.UWP
 {
@@ -32,7 +34,20 @@ namespace SoccerBet.UWP
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDc2NzcyQDMxMzkyZTMyMmUzMG9TTUd3dmNoTDFTK2tnM1I5ZWFWencraVoreVpsTG01ZHJ3blJJZnI1U1E9");
             this.InitializeComponent();
 
-            
+            var view = ApplicationView.GetForCurrentView();
+            if (view.IsFullScreenMode)//example toggle button
+            {
+                //view.ExitFullScreenMode();
+            }
+            else
+            {
+                view.TryEnterFullScreenMode();
+            }
+
+            LoadApplication(new SoccerBet.App());
+            Window.Current.CoreWindow.SizeChanged += UpdateUI;
+
+
 
             SfPopupLayoutRenderer.Init();
 
@@ -45,6 +60,19 @@ namespace SoccerBet.UWP
             
 
             LoadApplication(new SoccerBet.App());
+        }
+
+        public void UpdateUI(CoreWindow sender, WindowSizeChangedEventArgs e)
+        {
+            var view = ApplicationView.GetForCurrentView();
+            if (view.IsFullScreenMode)//example toggle button
+            {
+                //view.ExitFullScreenMode();
+            }
+            else
+            {
+                view.TryEnterFullScreenMode();
+            }
         }
     }
 }

@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:TextInputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
+             xmlns:TextInputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
+             xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              x:Class="SoccerBet.Views.Login">
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="EntryNormalStyle"  TargetType="Entry">
-                <Setter Property="TextColor" Value="#007DE4"/>
-                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="TextColor" Value="#ff4a00"/>
+                <Setter Property="FontSize" Value="16"/>
             </Style>
         </ResourceDictionary>
     </ContentPage.Resources>
@@ -16,9 +18,40 @@
 
 
 
-        <StackLayout>
+        <Grid>
+            <Grid.ColumnDefinitions >
+                <ColumnDefinition Width="10*" ></ColumnDefinition>
+                <ColumnDefinition Width="20*"></ColumnDefinition>
+                <ColumnDefinition Width="40*"></ColumnDefinition>
+                <ColumnDefinition Width="20*"></ColumnDefinition>
+                <ColumnDefinition Width="10*" ></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
             
+            <gradient:SfGradientView Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="0" Grid.RowSpan="9">
+                <gradient:SfGradientView.BackgroundBrush>
+                    <gradient:SfLinearGradientBrush>
+                        <gradient:SfLinearGradientBrush.GradientStops>
+                            <gradient:SfGradientStop Color="#ffffff" Offset="0.0" />
+                            <gradient:SfGradientStop Color="#FF9334" Offset="1.0" />
+                        </gradient:SfLinearGradientBrush.GradientStops>
+                    </gradient:SfLinearGradientBrush>
+                </gradient:SfGradientView.BackgroundBrush>
+            </gradient:SfGradientView>
+
+            <Image  x:Name="primo" Source="principal.png" Grid.Row="0" Grid.Column="2"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center"  ></Image>
+
             <TextInputLayout:SfTextInputLayout 
+                                    Grid.Column="0" Grid.ColumnSpan="5"
+                                    Grid.Row="1"
                                     ContainerType="Outlined"
                                     Margin="14,10,33,0"
                                     Hint="Name">
@@ -26,7 +59,31 @@
                                     Style="{StaticResource EntryNormalStyle}"
                                     Text="{Binding Text,Mode=TwoWay}" />
             </TextInputLayout:SfTextInputLayout>
-            
-        </StackLayout>
+
+            <TextInputLayout:SfTextInputLayout 
+                                    Grid.Column="0" Grid.ColumnSpan="5"
+                                    Grid.Row="2"
+                                    ContainerType="Outlined"
+                                    Margin="14,10,33,0"
+                                    EnablePasswordVisibilityToggle ="False"
+                                    Hint="Password">
+                <Entry  TextColor="#212121" 
+                                    Style="{StaticResource EntryNormalStyle}"
+                                    Text="{Binding Text,Mode=TwoWay}" />
+            </TextInputLayout:SfTextInputLayout>
+
+            <StackLayout Grid.Column="1" Grid.Row="3" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand">
+                <CheckBox x:Name="check"  BackgroundColor="Transparent"  Color="#ff4a00"  />
+            </StackLayout>
+
+            <StackLayout  Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="3" Margin="30, 0, 0, 0" BackgroundColor="white" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand">
+                <Label Text="Stay Connect" x:Name="rimani" Padding="0, 0, 0, 0"  TextColor="#000000"  HorizontalOptions="StartAndExpand" VerticalOptions="Start" FontSize="Small" />
+            </StackLayout>
+
+            <buttons:SfButton Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" x:Name="SfButton" Text="Button" BorderColor="#ff4a00" BackgroundColor="#ff4a00" TextColor="#ffffff"  CornerRadius="20" WidthRequest="100"/>
+
+            <buttons:SfButton Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="5" x:Name="SfButton1" Text="Button" BorderColor="#ff4a00" BackgroundColor="#ffffff" TextColor="#ff4a00"  CornerRadius="20" WidthRequest="100"/>
+
+        </Grid>
     </ContentPage.Content>
 </ContentPage>
