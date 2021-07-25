@@ -6,6 +6,9 @@
 
 <ItemGroup>
 <PackageReference Include="SampleBrowser.Core" Version="19.2.0.44" />
+<PackageReference Include="sqlite-net-pcl" Version="1.7.335" />
+<PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+<PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
 <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
 <PackageReference Include="Syncfusion.Xamarin.SfTreeView" Version="19.2.0.44" />
 <PackageReference Include="Syncfusion.Xamarin.SfTreeMap" Version="19.2.0.44" />

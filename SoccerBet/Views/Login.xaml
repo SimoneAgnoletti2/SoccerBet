@@ -4,6 +4,8 @@
              xmlns:gradient ="clr-namespace:Syncfusion.XForms.Graphics;assembly=Syncfusion.Core.XForms"
              xmlns:TextInputLayout="clr-namespace:Syncfusion.XForms.TextInputLayout;assembly=Syncfusion.Core.XForms"
              xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
+             xmlns:core="clr-namespace:SampleBrowser.Core;assembly=SampleBrowser.Core"
+             xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
              x:Class="SoccerBet.Views.Login">
     <ContentPage.Resources>
         <ResourceDictionary>
@@ -49,40 +51,38 @@
 
             <Image  x:Name="primo" Source="principal.png" Grid.Row="0" Grid.Column="2"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center"  ></Image>
 
-            <TextInputLayout:SfTextInputLayout 
-                                    Grid.Column="0" Grid.ColumnSpan="5"
-                                    Grid.Row="1"
-                                    ContainerType="Outlined"
-                                    Margin="14,10,33,0"
-                                    Hint="Name">
-                <Entry  TextColor="#212121" 
-                                    Style="{StaticResource EntryNormalStyle}"
-                                    Text="{Binding Text,Mode=TwoWay}" />
-            </TextInputLayout:SfTextInputLayout>
+            <progressBar:SfCircularProgressBar x:Name="progressBar" IsVisible="False" Grid.Row="1" Grid.Column="2" Progress="0" TrackColor="#ffb699" ProgressColor="#ff4a00"/>
 
             <TextInputLayout:SfTextInputLayout 
                                     Grid.Column="0" Grid.ColumnSpan="5"
                                     Grid.Row="2"
                                     ContainerType="Outlined"
                                     Margin="14,10,33,0"
-                                    EnablePasswordVisibilityToggle ="False"
-                                    Hint="Password">
-                <Entry  TextColor="#212121" 
+                                    Hint="Name" ShowHint="True" FocusedColor="#FF4A00">
+                <Entry  TextColor="#212121"  x:Name="nick"
                                     Style="{StaticResource EntryNormalStyle}"
                                     Text="{Binding Text,Mode=TwoWay}" />
             </TextInputLayout:SfTextInputLayout>
 
-            <StackLayout Grid.Column="1" Grid.Row="3" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand">
-                <CheckBox x:Name="check"  BackgroundColor="Transparent"  Color="#ff4a00"  />
+            <TextInputLayout:SfTextInputLayout 
+                                    Grid.Column="0" Grid.ColumnSpan="5"
+                                    Grid.Row="3"
+                                    ContainerType="Outlined"
+                                    Margin="14,10,33,0"
+                                    EnablePasswordVisibilityToggle ="True"
+                                    Hint="Password" ShowHint="True" FocusedColor="#FF4A00">
+                <Entry IsPassword="True" TextColor="#212121"  x:Name="pass"
+                                    Style="{StaticResource EntryNormalStyle}"
+                                    Text="{Binding Text,Mode=TwoWay}" />
+            </TextInputLayout:SfTextInputLayout>
+
+            <StackLayout Grid.Column="0" Grid.Row="4" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Margin="14,10,0,0">
+                <buttons:SfCheckBox x:Name="check"  BackgroundColor="Transparent" CheckedColor="#ff4a00" TextColor="Black" IsChecked="True" Text="Mantain"/>
             </StackLayout>
 
-            <StackLayout  Grid.Column="2" Grid.ColumnSpan="3" Grid.Row="3" Margin="30, 0, 0, 0" BackgroundColor="white" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand">
-                <Label Text="Stay Connect" x:Name="rimani" Padding="0, 0, 0, 0"  TextColor="#000000"  HorizontalOptions="StartAndExpand" VerticalOptions="Start" FontSize="Small" />
-            </StackLayout>
+            <buttons:SfButton Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="5" x:Name="SfButton" Text="SignIn" BorderColor="#ff4a00" BackgroundColor="#ff4a00" TextColor="#ffffff"  CornerRadius="20" WidthRequest="300"/>
 
-            <buttons:SfButton Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="4" x:Name="SfButton" Text="Button" BorderColor="#ff4a00" BackgroundColor="#ff4a00" TextColor="#ffffff"  CornerRadius="20" WidthRequest="100"/>
-
-            <buttons:SfButton Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="5" x:Name="SfButton1" Text="Button" BorderColor="#ff4a00" BackgroundColor="#ffffff" TextColor="#ff4a00"  CornerRadius="20" WidthRequest="100"/>
+            <buttons:SfButton Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="6" x:Name="SfButton1" Text="SignUp" BorderColor="#ff4a00" BackgroundColor="#ffffff" TextColor="#ff4a00"  CornerRadius="20" WidthRequest="100"/>
 
         </Grid>
     </ContentPage.Content>

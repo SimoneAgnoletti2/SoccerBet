@@ -44,7 +44,6 @@ namespace SoccerBet.UWP
                 view.TryEnterFullScreenMode();
             }
 
-            LoadApplication(new SoccerBet.App());
             Window.Current.CoreWindow.SizeChanged += UpdateUI;
 
 
@@ -56,6 +55,7 @@ namespace SoccerBet.UWP
 			SfPullToRefreshRenderer.Init();
 
 			SfDataGridRenderer.Init();
+            
 
             
 
