@@ -5,7 +5,7 @@
     x:Class="SoccerBet.Views.Menu" >
 	<Grid>
     <Grid.RowDefinitions>
-                <RowDefinition Height="0.1*"/>
+                <RowDefinition Height="auto"/>
         <RowDefinition Height="99*"/>
                 <RowDefinition/>
                 </Grid.RowDefinitions>
@@ -17,7 +17,7 @@
         <navigationdrawer:SfNavigationDrawer.ContentView>
             <Grid x:Name="mainContentView" BackgroundColor="White">
                 <Grid.RowDefinitions>
-                <RowDefinition Height="1000"/>
+                <RowDefinition Height="100*"/>
                 <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Label Grid.Row="0" x:Name="contentLabel" VerticalOptions="Center" HorizontalOptions="Center" Text="Content View" FontSize="14" TextColor="Black"/>
@@ -33,20 +33,20 @@
                 <Label Text="James Pollock" Grid.Row="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
             </Grid>
         </navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
-        <navigationdrawer:SfNavigationDrawer.DrawerContentView>
-            <ListView x:Name="listView" ItemSelected ="Handle_ItemSelected">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <ViewCell>
-                            <StackLayout HeightRequest="40" BackgroundColor="White">
+            <navigationdrawer:SfNavigationDrawer.DrawerContentView>
+                <ListView x:Name="listView" ItemSelected ="Handle_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout HeightRequest="40" BackgroundColor="White">
                                     <Image Aspect="AspectFit" Source="{Binding image}"></Image>
                                     <Label Margin="10,7,0,0" Text="{Binding }" TextColor="Black" FontSize="16"/>
-                            </StackLayout>
-                        </ViewCell>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
-            </ListView>
-        </navigationdrawer:SfNavigationDrawer.DrawerContentView>
-    </navigationdrawer:SfNavigationDrawer>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </navigationdrawer:SfNavigationDrawer.DrawerContentView>
+        </navigationdrawer:SfNavigationDrawer>
     </Grid>
 </ContentPage>
