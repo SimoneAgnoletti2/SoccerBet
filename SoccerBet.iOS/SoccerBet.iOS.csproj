@@ -125,7 +125,7 @@
       <Version>19.2.0.44</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Essentials">
-      <Version>1.7.0</Version>
+      <Version>1.6.1</Version>
     </PackageReference>
     <PackageReference Include="Xamarin.Forms" Version="4.5.0.617" />
     <PackageReference Include="Syncfusion.Xamarin.SfTreeView" Version="19.2.0.44" />

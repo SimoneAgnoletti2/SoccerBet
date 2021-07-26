@@ -18,6 +18,7 @@ namespace SoccerBet.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login : ContentPage
     {
+        public int progress = 0;
         public Login()
         {
             InitializeComponent();
@@ -51,7 +52,7 @@ namespace SoccerBet.Views
                     {
                         await dbu.updateUserMantain(us.Nome, us.Mantain);
                         Preferences.Set("Nome", us.Nome);
-                        //Application.Current.MainPage = new AppShell();
+                        Application.Current.MainPage = new Menu();
                     }
                     else
                     {
@@ -79,7 +80,7 @@ namespace SoccerBet.Views
         public async void ButtonClickedSignin(object sender, EventArgs e)
         {
             progressBar.IsVisible = true;
-            progressBar.SetProgress(1, 0, Easing.SinIn);
+            progressBar.SetProgress(progress, 0, Easing.SinIn);
             bool popola = false;
             if (nick.Text != null && pass.Text != null)
             {
@@ -105,7 +106,10 @@ namespace SoccerBet.Views
                         await dbu.InsUser(us);
                         Preferences.Set("Nome", us.Nome);
                         popola = await popolaDb();
-                        //Application.Current.MainPage = new AppShell();
+
+                        progress = 100;
+                        progressBar.SetProgress(progress, 0, Easing.SpringIn);
+                        Application.Current.MainPage = new Menu();
                     }
                     else
                     {
@@ -181,8 +185,12 @@ namespace SoccerBet.Views
                                 }
                                 else
                                 {
+
                                     await dbu.CreateTableUser();
                                     await dbu.InsUser(u);
+                                    progress = 15;
+                                    progressBar.SetProgress(progress, 0, Easing.SpringIn);
+
                                     return true;
                                 }
                             }
@@ -243,8 +251,12 @@ namespace SoccerBet.Views
                             paese.LinkImage = reader.GetString(2);
                             paese.Valido = reader.GetInt32(3);
                             paese.Preferito = 0;
+
                             await dbc.InsPaese(paese);
                         }
+
+                        progress = 75;
+                        progressBar.SetProgress(progress, 0, Easing.SpringIn);
                     }
                     connection.Close();
                 }

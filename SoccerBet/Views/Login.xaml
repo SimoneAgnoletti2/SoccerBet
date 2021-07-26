@@ -29,8 +29,8 @@
                 <ColumnDefinition Width="10*" ></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Grid.RowDefinitions>
-                <RowDefinition Height="40*"/>
-                <RowDefinition Height="10*"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="20*"/>
                 <RowDefinition Height="10*"/>
                 <RowDefinition Height="10*"/>
                 <RowDefinition Height="10*"/>
@@ -51,7 +51,7 @@
 
             <Image  x:Name="primo" Source="principal.png" Grid.Row="0" Grid.Column="2"  Aspect="AspectFit" HorizontalOptions="Center" VerticalOptions="Center"  ></Image>
 
-            <progressBar:SfCircularProgressBar x:Name="progressBar" IsVisible="False" Grid.Row="1" Grid.Column="2" Progress="0" TrackColor="#ffb699" ProgressColor="#ff4a00"/>
+            <progressBar:SfCircularProgressBar WidthRequest="100" x:Name="progressBar" IsVisible="False" Grid.Row="1" Grid.Column="2" Progress="0" TrackColor="#ffb699" ProgressColor="#ff4a00"/>
 
             <TextInputLayout:SfTextInputLayout 
                                     Grid.Column="0" Grid.ColumnSpan="5"
@@ -80,9 +80,9 @@
                 <buttons:SfCheckBox x:Name="check"  BackgroundColor="Transparent" CheckedColor="#ff4a00" TextColor="Black" IsChecked="True" Text="Mantain"/>
             </StackLayout>
 
-            <buttons:SfButton Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="5" x:Name="SfButton" Text="SignIn" BorderColor="#ff4a00" BackgroundColor="#ff4a00" TextColor="#ffffff"  CornerRadius="20" WidthRequest="300"/>
+            <buttons:SfButton Clicked="ButtonClickedLogin" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="5" x:Name="SfButton" Text="SignIn" BorderColor="#ff4a00" BackgroundColor="#ff4a00" TextColor="#ffffff"  CornerRadius="20" WidthRequest="300"/>
 
-            <buttons:SfButton Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="6" x:Name="SfButton1" Text="SignUp" BorderColor="#ff4a00" BackgroundColor="#ffffff" TextColor="#ff4a00"  CornerRadius="20" WidthRequest="100"/>
+            <buttons:SfButton Clicked="ButtonClickedSignin" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="6" x:Name="SfButton1" Text="SignUp" BorderColor="#ff4a00" BackgroundColor="#ffffff" TextColor="#ff4a00"  CornerRadius="20" WidthRequest="100"/>
 
         </Grid>
     </ContentPage.Content>
