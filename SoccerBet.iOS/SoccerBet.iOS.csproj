@@ -199,4 +199,532 @@
       <Name>SoccerBet</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\burgericon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Benin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Bermuda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Bolivia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Bosnia and Herzegovina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Botswana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Brazil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Bulgaria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Burkina Faso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Burundi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Cambodia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Cameroon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Canada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Cape Verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Chile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\China.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Colombia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Costa Rica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Croatia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Curaçao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Cyprus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Czech Republic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Denmark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Djibouti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Dominican Republic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\DR Congo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Ecuador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Egypt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\El Salvador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\England.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Estonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Eswatini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Ethiopia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Europe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Faroe Islands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Fiji.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Finland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\France.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Gabon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Gambia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Georgia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Germany.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Ghana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Gibraltar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Greece.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Guatemala.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Guinea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Haiti.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Honduras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Hong Kong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Hungary.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Iceland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\India.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Indonesia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Iran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Iraq.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Ireland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Israel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Italy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Ivory Coast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Jamaica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Japan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Jordan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Kazakhstan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Kenya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Kosovo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Kuwait.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Kyrgyzstan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Laos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Latvia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Lebanon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Lesotho.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Liberia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Libya.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Liechtenstein.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Lithuania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Luxembourg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Macao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Malawi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Malaysia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Maldives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Mali.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Malta.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Mauritania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Mauritius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Mexico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Moldova.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Mongolia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Montenegro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Morocco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Mozambique.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Myanmar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Namibia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Netherlands.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\New Zealand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Nicaragua.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Niger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Nigeria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\North &amp; Central America.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\North Macedonia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Northern Ireland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Norway.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Oman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Pakistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Palestine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Panama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Paraguay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Peru.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Philippines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Poland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Portugal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Qatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Republic of the Congo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Réunion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Romania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Russia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Rwanda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\San Marino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Saudi Arabia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Scotland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Senegal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Serbia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Seychelles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Sierra Leone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Singapore.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Slovakia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Slovenia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Somalia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\South Africa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\South America.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\South Korea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Spain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Sri Lanka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Sudan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Sweden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Switzerland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Syria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Taiwan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Tajikistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Tanzania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Thailand.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Togo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Trinidad and Tobago.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Tunisia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Turkey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Turkmenistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Uganda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Ukraine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\United Arab Emirates.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Uruguay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\USA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Uzbekistan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Venezuela.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Vietnam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Wales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\World.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Yemen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Zambia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Zimbabwe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Africa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Albania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Algeria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Andorra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Angola.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Argentina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Armenia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Aruba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Asia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Australia &amp; Oceania.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Australia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Austria.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Azerbaijan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Bahrain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Bangladesh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Belarus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Bandiere\Belgium.png" />
+  </ItemGroup>
 </Project>
