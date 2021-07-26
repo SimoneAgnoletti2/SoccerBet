@@ -34,17 +34,17 @@ namespace SoccerBet.UWP
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDc2NzcyQDMxMzkyZTMyMmUzMG9TTUd3dmNoTDFTK2tnM1I5ZWFWencraVoreVpsTG01ZHJ3blJJZnI1U1E9");
             this.InitializeComponent();
 
-            var view = ApplicationView.GetForCurrentView();
-            if (view.IsFullScreenMode)//example toggle button
-            {
-                //view.ExitFullScreenMode();
-            }
-            else
-            {
-                view.TryEnterFullScreenMode();
-            }
+            //var view = ApplicationView.GetForCurrentView();
+            //if (view.IsFullScreenMode)//example toggle button
+            //{
+            //    //view.ExitFullScreenMode();
+            //}
+            //else
+            //{
+            //    view.TryEnterFullScreenMode();
+            //}
 
-            Window.Current.CoreWindow.SizeChanged += UpdateUI;
+            //Window.Current.CoreWindow.SizeChanged += UpdateUI;
 
 
 

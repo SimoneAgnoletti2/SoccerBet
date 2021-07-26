@@ -108,10 +108,12 @@ namespace SoccerBet.Views
                         Preferences.Set("Nome", us.Nome);
                         popola = await popolaDb();
 
-                        progress = 100;
-                        progressBar.SetProgress(progress, 0, Easing.SpringIn);
 
-                        Thread.Sleep(3000);
+                        progress++;
+                        if (progress > 100)
+                            progress = 100;
+                        progressBar.SetProgress(progress, 20, Easing.SpringIn);
+
                         Application.Current.MainPage = new Menu();
                     }
                     else
@@ -191,10 +193,11 @@ namespace SoccerBet.Views
 
                                     await dbu.CreateTableUser();
                                     await dbu.InsUser(u);
-                                    progress = 15;
+                                    progress++;
+                                    if (progress > 100)
+                                          progress = 100;
                                     progressBar.SetProgress(progress, 0, Easing.SpringIn);
 
-                                    Thread.Sleep(3000);
 
                                     return true;
                                 }
@@ -258,12 +261,15 @@ namespace SoccerBet.Views
                             paese.Preferito = 0;
 
                             await dbc.InsPaese(paese);
+
+                            progress++;
+                            if (progress > 100)
+                                progress = 100;
+                            progressBar.SetProgress(progress, 0, Easing.SinIn);
+
                         }
+                        Thread.Sleep(1000);
 
-                        progress = 75;
-                        progressBar.SetProgress(progress, 0, Easing.SpringIn);
-
-                        Thread.Sleep(3000);
                     }
                     connection.Close();
                 }

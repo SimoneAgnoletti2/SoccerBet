@@ -2,22 +2,22 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:SoccerBet.Views"
     xmlns:navigationdrawer="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms"
-    x:Class="SoccerBet.Views.Menu">
+    x:Class="SoccerBet.Views.Menu" >
 	<Grid>
     <Grid.RowDefinitions>
-                <RowDefinition Height="auto"/>
-        <RowDefinition Height="600"/>
+                <RowDefinition Height="0.1*"/>
+        <RowDefinition Height="99*"/>
                 <RowDefinition/>
                 </Grid.RowDefinitions>
         <StackLayout BackgroundColor="White" Grid.Row="0" Orientation="Horizontal">
-            <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" FontSize="20" BackgroundColor="#FF4A00" Clicked="Handle_Clicked"/>
-            <Label x:Name="headerLabel" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Home" FontSize="16" TextColor="White" BackgroundColor="#FF4A00"/>
+            <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" FontSize="20" BackgroundColor="White" Clicked="Handle_Clicked"/>
+            <Label x:Name="headerLabel" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Home" FontSize="16" TextColor="#FF4A00" BackgroundColor="White"/>
                 </StackLayout>
     <navigationdrawer:SfNavigationDrawer Grid.Row="1" x:Name="navigationDrawer" DrawerWidth ="300" DrawerHeaderHeight="160">
         <navigationdrawer:SfNavigationDrawer.ContentView>
             <Grid x:Name="mainContentView" BackgroundColor="White">
                 <Grid.RowDefinitions>
-                <RowDefinition Height="600"/>
+                <RowDefinition Height="1000"/>
                 <RowDefinition/>
                 </Grid.RowDefinitions>
                 <Label Grid.Row="0" x:Name="contentLabel" VerticalOptions="Center" HorizontalOptions="Center" Text="Content View" FontSize="14" TextColor="Black"/>

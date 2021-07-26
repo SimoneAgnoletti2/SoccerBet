@@ -6,7 +6,8 @@
              xmlns:buttons="clr-namespace:Syncfusion.XForms.Buttons;assembly=Syncfusion.Buttons.XForms"
              xmlns:core="clr-namespace:SampleBrowser.Core;assembly=SampleBrowser.Core"
              xmlns:progressBar="clr-namespace:Syncfusion.XForms.ProgressBar;assembly=Syncfusion.SfProgressBar.XForms"
-             x:Class="SoccerBet.Views.Login">
+             x:Class="SoccerBet.Views.Login"
+             >
     <ContentPage.Resources>
         <ResourceDictionary>
             <Style x:Key="EntryNormalStyle"  TargetType="Entry">
@@ -76,9 +77,9 @@
                                     Text="{Binding Text,Mode=TwoWay}" />
             </TextInputLayout:SfTextInputLayout>
 
-            <StackLayout Grid.Column="0" Grid.Row="4" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Margin="14,10,0,0">
-                <buttons:SfCheckBox x:Name="check"  BackgroundColor="Transparent" CheckedColor="#ff4a00" TextColor="Black" IsChecked="True" Text="Mantain"/>
-            </StackLayout>
+            
+             <buttons:SfCheckBox x:Name="check"  BackgroundColor="Transparent" CheckedColor="#ff4a00" TextColor="Black" Grid.Column="0" Grid.ColumnSpan="5" Grid.Row="4" HorizontalOptions="StartAndExpand" VerticalOptions="CenterAndExpand" Margin="14,0,0,0" IsChecked="True" Text="Mantain"/>
+            
 
             <buttons:SfButton Clicked="ButtonClickedLogin" Grid.Column="1" Grid.ColumnSpan="3" Grid.Row="5" x:Name="SfButton" Text="SignIn" BorderColor="#ff4a00" BackgroundColor="#ff4a00" TextColor="#ffffff"  CornerRadius="20" WidthRequest="300"/>
 

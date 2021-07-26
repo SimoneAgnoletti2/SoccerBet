@@ -25,7 +25,6 @@ namespace SoccerBet.Views
             list.Add("Classifiche Campionati");
             list.Add("Classifiche Giocatori");
             list.Add("Impostazioni");
-            list.Add("ClassificheCampionati");
             list.Add("Logout");
 
             listView.ItemsSource = list;
