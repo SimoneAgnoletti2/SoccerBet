@@ -9,11 +9,11 @@
         <RowDefinition Height="600"/>
                 <RowDefinition/>
                 </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="#FF4A00" Grid.Row="0" Orientation="Horizontal">
+        <StackLayout BackgroundColor="White" Grid.Row="0" Orientation="Horizontal">
             <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" FontSize="20" BackgroundColor="#FF4A00" Clicked="Handle_Clicked"/>
             <Label x:Name="headerLabel" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Home" FontSize="16" TextColor="White" BackgroundColor="#FF4A00"/>
                 </StackLayout>
-    <navigationdrawer:SfNavigationDrawer Grid.Row="1" x:Name="navigationDrawer" DrawerWidth ="200" DrawerHeaderHeight="160">
+    <navigationdrawer:SfNavigationDrawer Grid.Row="1" x:Name="navigationDrawer" DrawerWidth ="300" DrawerHeaderHeight="160">
         <navigationdrawer:SfNavigationDrawer.ContentView>
             <Grid x:Name="mainContentView" BackgroundColor="White">
                 <Grid.RowDefinitions>
@@ -29,7 +29,7 @@
                     <RowDefinition Height="120"/>
                     <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
-                <Image Source="user.png" HeightRequest="110" Margin="0,10,0,0" BackgroundColor="#1aa1d6" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Image Source="user.png" HeightRequest="110" Margin="0,10,0,0" BackgroundColor="#FF4A00" VerticalOptions="Center" HorizontalOptions="Center"/>
                 <Label Text="James Pollock" Grid.Row="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
             </Grid>
         </navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
@@ -38,8 +38,9 @@
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <StackLayout HeightRequest="40">
-                                <Label Margin="10,7,0,0" Text="{Binding}" FontSize="16"/>
+                            <StackLayout HeightRequest="40" BackgroundColor="White">
+                                    <Image Aspect="AspectFit" Source="{Binding image}"></Image>
+                                    <Label Margin="10,7,0,0" Text="{Binding }" TextColor="Black" FontSize="16"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

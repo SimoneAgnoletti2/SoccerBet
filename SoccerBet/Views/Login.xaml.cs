@@ -108,15 +108,16 @@ namespace SoccerBet.Views
                         Preferences.Set("Nome", us.Nome);
                         popola = await popolaDb();
 
-                        Thread.Sleep(1000);
                         progress = 100;
                         progressBar.SetProgress(progress, 0, Easing.SpringIn);
+
+                        Thread.Sleep(3000);
                         Application.Current.MainPage = new Menu();
                     }
                     else
                     {
                         progressBar.IsVisible = false;
-                        progressBar.SetProgress(0, 0, Easing.SinIn);
+                        progressBar.SetProgress(0, 0, Easing.SpringIn);
                         await DisplayAlert("Errore", "NickName già scelto!", "OK");
                         nick.Text = "";
                         pass.Text = "";
@@ -193,6 +194,8 @@ namespace SoccerBet.Views
                                     progress = 15;
                                     progressBar.SetProgress(progress, 0, Easing.SpringIn);
 
+                                    Thread.Sleep(3000);
+
                                     return true;
                                 }
                             }
@@ -259,6 +262,8 @@ namespace SoccerBet.Views
 
                         progress = 75;
                         progressBar.SetProgress(progress, 0, Easing.SpringIn);
+
+                        Thread.Sleep(3000);
                     }
                     connection.Close();
                 }
