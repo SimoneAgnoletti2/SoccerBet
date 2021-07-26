@@ -12,6 +12,7 @@ using Xamarin.Forms.Xaml;
 using Xamarin.Essentials;
 using System.Data.SqlClient;
 using System.Data;
+using System.Threading;
 
 namespace SoccerBet.Views
 {
@@ -107,6 +108,7 @@ namespace SoccerBet.Views
                         Preferences.Set("Nome", us.Nome);
                         popola = await popolaDb();
 
+                        Thread.Sleep(1000);
                         progress = 100;
                         progressBar.SetProgress(progress, 0, Easing.SpringIn);
                         Application.Current.MainPage = new Menu();
