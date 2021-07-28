@@ -268,7 +268,6 @@ namespace SoccerBet.Views
                             progressBar.SetProgress(progress, 0, Easing.SinIn);
 
                         }
-                        Thread.Sleep(1000);
 
                     }
                     connection.Close();

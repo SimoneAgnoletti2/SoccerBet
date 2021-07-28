@@ -19326,493 +19326,517 @@ namespace SoccerBet.Android
 			public const int Kyrgyzstan = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int Laos = 2131165430;
+			public const int ladder = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int Latvia = 2131165431;
+			public const int lader = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int layoutBorder = 2131165432;
+			public const int Laos = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int Lebanon = 2131165433;
+			public const int Latvia = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int Lesotho = 2131165434;
+			public const int layoutBorder = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int Liberia = 2131165435;
+			public const int Lebanon = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int Libya = 2131165436;
+			public const int Lesotho = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int Liechtenstein = 2131165437;
+			public const int Liberia = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int Lithuania = 2131165438;
+			public const int Libya = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int Luxembourg = 2131165439;
+			public const int Liechtenstein = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int Macao = 2131165440;
+			public const int Lithuania = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int Malawi = 2131165441;
+			public const int logout = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int Malaysia = 2131165442;
+			public const int Luxembourg = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int Maldives = 2131165443;
+			public const int Macao = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int Mali = 2131165444;
+			public const int Malawi = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int Malta = 2131165445;
+			public const int Malaysia = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int Mauritania = 2131165446;
+			public const int Maldives = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int Mauritius = 2131165447;
+			public const int Mali = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int Mexico = 2131165448;
+			public const int Malta = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int Moldova = 2131165449;
+			public const int Mauritania = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int Mongolia = 2131165450;
+			public const int Mauritius = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int Montenegro = 2131165451;
+			public const int menu = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int More = 2131165452;
+			public const int Mexico = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int Morocco = 2131165453;
+			public const int Moldova = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int Mozambique = 2131165454;
+			public const int Mongolia = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int mtrl_snackbar_background = 2131165455;
+			public const int Montenegro = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int mtrl_tabs_default_indicator = 2131165456;
+			public const int More = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int Myanmar = 2131165457;
+			public const int Morocco = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int Namibia = 2131165458;
+			public const int Mozambique = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int navigation_empty_icon = 2131165459;
+			public const int mtrl_snackbar_background = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int Netherlands = 2131165460;
-			
-			// aapt resource value: 0x7F070116
-			public const int newimage = 2131165462;
+			public const int mtrl_tabs_default_indicator = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int New_Zealand = 2131165461;
+			public const int Myanmar = 2131165461;
+			
+			// aapt resource value: 0x7F070116
+			public const int Namibia = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int Nicaragua = 2131165463;
+			public const int navigation_empty_icon = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int Niger = 2131165464;
-			
-			// aapt resource value: 0x7F070119
-			public const int Nigeria = 2131165465;
+			public const int Netherlands = 2131165464;
 			
 			// aapt resource value: 0x7F07011A
-			public const int NodeCollapse = 2131165466;
+			public const int newimage = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int NodeExpand = 2131165467;
+			public const int newtickets = 2131165467;
 			
-			// aapt resource value: 0x7F07011E
-			public const int Northern_Ireland = 2131165470;
+			// aapt resource value: 0x7F070119
+			public const int New_Zealand = 2131165465;
 			
 			// aapt resource value: 0x7F07011C
-			public const int North_and_Central_America = 2131165468;
+			public const int Nicaragua = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int North_Macedonia = 2131165469;
+			public const int Niger = 2131165469;
+			
+			// aapt resource value: 0x7F07011E
+			public const int Nigeria = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int Norway = 2131165471;
+			public const int NodeCollapse = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int notification_action_background = 2131165472;
-			
-			// aapt resource value: 0x7F070121
-			public const int notification_bg = 2131165473;
-			
-			// aapt resource value: 0x7F070122
-			public const int notification_bg_low = 2131165474;
+			public const int NodeExpand = 2131165472;
 			
 			// aapt resource value: 0x7F070123
-			public const int notification_bg_low_normal = 2131165475;
+			public const int Northern_Ireland = 2131165475;
+			
+			// aapt resource value: 0x7F070121
+			public const int North_and_Central_America = 2131165473;
+			
+			// aapt resource value: 0x7F070122
+			public const int North_Macedonia = 2131165474;
 			
 			// aapt resource value: 0x7F070124
-			public const int notification_bg_low_pressed = 2131165476;
+			public const int Norway = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int notification_bg_normal = 2131165477;
+			public const int notification_action_background = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int notification_bg_normal_pressed = 2131165478;
+			public const int notification_bg = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int notification_icon_background = 2131165479;
+			public const int notification_bg_low = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int notification_template_icon_bg = 2131165480;
+			public const int notification_bg_low_normal = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int notification_template_icon_low_bg = 2131165481;
+			public const int notification_bg_low_pressed = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int notification_tile_bg = 2131165482;
+			public const int notification_bg_normal = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int notify_panel_notification_icon_bg = 2131165483;
+			public const int notification_bg_normal_pressed = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int Oman = 2131165484;
+			public const int notification_icon_background = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int Option = 2131165485;
+			public const int notification_template_icon_bg = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int Pakistan = 2131165486;
+			public const int notification_template_icon_low_bg = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int Palestine = 2131165487;
+			public const int notification_tile_bg = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int Panama = 2131165488;
+			public const int notify_panel_notification_icon_bg = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int Paraguay = 2131165489;
+			public const int Oman = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int PasswordAlertDialogBottomLine = 2131165490;
+			public const int Option = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int PasswordAlertDialogCursorStyle = 2131165491;
+			public const int Pakistan = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int Peru = 2131165492;
+			public const int Palestine = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int Philippines = 2131165493;
+			public const int Panama = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int Poland = 2131165494;
+			public const int Paraguay = 2131165494;
 			
 			// aapt resource value: 0x7F070137
-			public const int popup_forms_android_close_icon = 2131165495;
+			public const int PasswordAlertDialogBottomLine = 2131165495;
 			
 			// aapt resource value: 0x7F070138
-			public const int popup_forms_android_shadow = 2131165496;
+			public const int PasswordAlertDialogCursorStyle = 2131165496;
 			
 			// aapt resource value: 0x7F070139
-			public const int popup_forms_dark_theme_close_icon = 2131165497;
+			public const int Peru = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int popup_forms_light_theme_close_icon = 2131165498;
+			public const int Philippines = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int Portugal = 2131165499;
+			public const int Poland = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int preview = 2131165500;
+			public const int popup_forms_android_close_icon = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int principal = 2131165501;
+			public const int popup_forms_android_shadow = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int Qatar = 2131165502;
+			public const int popup_forms_dark_theme_close_icon = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int Recurrence = 2131165503;
+			public const int popup_forms_light_theme_close_icon = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int Republic_of_the_Congo = 2131165504;
+			public const int Portugal = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int Reset = 2131165505;
+			public const int preview = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int Reunion = 2131165506;
+			public const int principal = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int ripple = 2131165507;
+			public const int Qatar = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int Romania = 2131165508;
+			public const int Recurrence = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int roundCornerButton = 2131165509;
+			public const int reload = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int roundedcorner = 2131165510;
+			public const int Republic_of_the_Congo = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int Russia = 2131165511;
+			public const int Reset = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int Rwanda = 2131165512;
+			public const int Reunion = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int San_Marino = 2131165513;
+			public const int ripple = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int Saudi_Arabia = 2131165514;
+			public const int Romania = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int savebutton = 2131165515;
+			public const int roundCornerButton = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int Scotland = 2131165516;
+			public const int roundedcorner = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int Search = 2131165517;
+			public const int Russia = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int Senegal = 2131165518;
+			public const int Rwanda = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int Separator = 2131165519;
+			public const int San_Marino = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int Serbia = 2131165520;
+			public const int Saudi_Arabia = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int Seychelles = 2131165521;
+			public const int savebutton = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int sfcheckbox_animation = 2131165522;
+			public const int Scotland = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int sfcheckbox_checked = 2131165523;
+			public const int Search = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int sfcheckbox_checked_indeterminate = 2131165524;
+			public const int Senegal = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int sfcheckbox_checked_unchecked = 2131165525;
+			public const int Separator = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int sfcheckbox_indeterminate = 2131165526;
+			public const int Serbia = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int sfcheckbox_indeterminate_checked = 2131165527;
+			public const int Seychelles = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int sfcheckbox_indeterminate_unchecked = 2131165528;
+			public const int sfcheckbox_animation = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int sfcheckbox_unchecked = 2131165529;
+			public const int sfcheckbox_checked = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int sfcheckbox_unchecked_checked = 2131165530;
+			public const int sfcheckbox_checked_indeterminate = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int sfcheckbox_unchecked_indeterminate = 2131165531;
+			public const int sfcheckbox_checked_unchecked = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int sfclosebutton = 2131165532;
+			public const int sfcheckbox_indeterminate = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int sfprogressbar_determinate_linear = 2131165533;
+			public const int sfcheckbox_indeterminate_checked = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int sfprogressbar_indeterminate_circular = 2131165534;
+			public const int sfcheckbox_indeterminate_unchecked = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int sfprogressbar_indeterminate_linear = 2131165535;
+			public const int sfcheckbox_unchecked = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int shadow_effect = 2131165536;
+			public const int sfcheckbox_unchecked_checked = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int Sierra_Leone = 2131165537;
+			public const int sfcheckbox_unchecked_indeterminate = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int SignaturePadBottomCorner = 2131165538;
+			public const int sfclosebutton = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int SignaturepadRoundedCorners = 2131165539;
+			public const int sfprogressbar_determinate_linear = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int SignaturePadTopCorner = 2131165540;
+			public const int sfprogressbar_indeterminate_circular = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int Singapore = 2131165541;
+			public const int sfprogressbar_indeterminate_linear = 2131165541;
 			
 			// aapt resource value: 0x7F070166
-			public const int Slovakia = 2131165542;
+			public const int shadow_effect = 2131165542;
 			
 			// aapt resource value: 0x7F070167
-			public const int Slovenia = 2131165543;
+			public const int Sierra_Leone = 2131165543;
 			
 			// aapt resource value: 0x7F070168
-			public const int Somalia = 2131165544;
+			public const int SignaturePadBottomCorner = 2131165544;
 			
 			// aapt resource value: 0x7F070169
-			public const int South_Africa = 2131165545;
+			public const int SignaturepadRoundedCorners = 2131165545;
 			
 			// aapt resource value: 0x7F07016A
-			public const int South_America = 2131165546;
+			public const int SignaturePadTopCorner = 2131165546;
 			
 			// aapt resource value: 0x7F07016B
-			public const int South_Korea = 2131165547;
+			public const int Singapore = 2131165547;
 			
 			// aapt resource value: 0x7F07016C
-			public const int Spain = 2131165548;
+			public const int Slovakia = 2131165548;
 			
 			// aapt resource value: 0x7F07016D
-			public const int SplashScreen = 2131165549;
+			public const int Slovenia = 2131165549;
 			
 			// aapt resource value: 0x7F07016E
-			public const int Sri_Lanka = 2131165550;
+			public const int Somalia = 2131165550;
 			
 			// aapt resource value: 0x7F07016F
-			public const int styleinfo = 2131165551;
+			public const int South_Africa = 2131165551;
 			
 			// aapt resource value: 0x7F070170
-			public const int Sudan = 2131165552;
+			public const int South_America = 2131165552;
 			
 			// aapt resource value: 0x7F070171
-			public const int Sweden = 2131165553;
+			public const int South_Korea = 2131165553;
 			
 			// aapt resource value: 0x7F070172
-			public const int Switzerland = 2131165554;
+			public const int Spain = 2131165554;
 			
 			// aapt resource value: 0x7F070173
-			public const int Syria = 2131165555;
+			public const int SplashScreen = 2131165555;
 			
 			// aapt resource value: 0x7F070174
-			public const int Taiwan = 2131165556;
+			public const int Sri_Lanka = 2131165556;
 			
 			// aapt resource value: 0x7F070175
-			public const int Tajikistan = 2131165557;
+			public const int storico = 2131165557;
 			
 			// aapt resource value: 0x7F070176
-			public const int Tanzania = 2131165558;
+			public const int styleinfo = 2131165558;
 			
 			// aapt resource value: 0x7F070177
-			public const int text_color_button = 2131165559;
+			public const int Sudan = 2131165559;
 			
 			// aapt resource value: 0x7F070178
-			public const int Thailand = 2131165560;
+			public const int Sweden = 2131165560;
 			
 			// aapt resource value: 0x7F070179
-			public const int Togo = 2131165561;
+			public const int Switzerland = 2131165561;
 			
 			// aapt resource value: 0x7F07017A
-			public const int toolbaritem_background = 2131165562;
+			public const int Syria = 2131165562;
 			
 			// aapt resource value: 0x7F07017B
-			public const int toolbaritem_pressed = 2131165563;
+			public const int Taiwan = 2131165563;
 			
 			// aapt resource value: 0x7F07017C
-			public const int tooltip_frame_dark = 2131165564;
+			public const int Tajikistan = 2131165564;
 			
 			// aapt resource value: 0x7F07017D
-			public const int tooltip_frame_light = 2131165565;
+			public const int Tanzania = 2131165565;
 			
 			// aapt resource value: 0x7F07017E
-			public const int treeMap_animation_layout = 2131165566;
+			public const int text_color_button = 2131165566;
 			
 			// aapt resource value: 0x7F07017F
-			public const int Trinidad_and_Tobago = 2131165567;
+			public const int Thailand = 2131165567;
 			
 			// aapt resource value: 0x7F070180
-			public const int Tunisia = 2131165568;
+			public const int Togo = 2131165568;
 			
 			// aapt resource value: 0x7F070181
-			public const int Turkey = 2131165569;
+			public const int toolbaritem_background = 2131165569;
 			
 			// aapt resource value: 0x7F070182
-			public const int Turkmenistan = 2131165570;
+			public const int toolbaritem_pressed = 2131165570;
 			
 			// aapt resource value: 0x7F070183
-			public const int Uganda = 2131165571;
+			public const int tools = 2131165571;
 			
 			// aapt resource value: 0x7F070184
-			public const int Ukraine = 2131165572;
-			
-			// aapt resource value: 0x7F070186
-			public const int undoButton = 2131165574;
+			public const int tooltip_frame_dark = 2131165572;
 			
 			// aapt resource value: 0x7F070185
-			public const int undo_redo_background = 2131165573;
+			public const int tooltip_frame_light = 2131165573;
+			
+			// aapt resource value: 0x7F070186
+			public const int treeMap_animation_layout = 2131165574;
 			
 			// aapt resource value: 0x7F070187
-			public const int United_Arab_Emirates = 2131165575;
+			public const int Trinidad_and_Tobago = 2131165575;
 			
 			// aapt resource value: 0x7F070188
-			public const int UpButton = 2131165576;
+			public const int Tunisia = 2131165576;
 			
 			// aapt resource value: 0x7F070189
-			public const int updated = 2131165577;
+			public const int Turkey = 2131165577;
 			
 			// aapt resource value: 0x7F07018A
-			public const int Uruguay = 2131165578;
+			public const int Turkmenistan = 2131165578;
 			
 			// aapt resource value: 0x7F07018B
-			public const int USA = 2131165579;
+			public const int Uganda = 2131165579;
 			
 			// aapt resource value: 0x7F07018C
-			public const int Uzbekistan = 2131165580;
-			
-			// aapt resource value: 0x7F07018D
-			public const int Venezuela = 2131165581;
+			public const int Ukraine = 2131165580;
 			
 			// aapt resource value: 0x7F07018E
-			public const int Vietnam = 2131165582;
+			public const int undoButton = 2131165582;
+			
+			// aapt resource value: 0x7F07018D
+			public const int undo_redo_background = 2131165581;
 			
 			// aapt resource value: 0x7F07018F
-			public const int viewcode = 2131165583;
+			public const int United_Arab_Emirates = 2131165583;
 			
 			// aapt resource value: 0x7F070190
-			public const int Viewmode = 2131165584;
+			public const int UpButton = 2131165584;
 			
 			// aapt resource value: 0x7F070191
-			public const int Wales = 2131165585;
+			public const int updated = 2131165585;
 			
 			// aapt resource value: 0x7F070192
-			public const int World = 2131165586;
+			public const int Uruguay = 2131165586;
 			
 			// aapt resource value: 0x7F070193
-			public const int x_new = 2131165587;
+			public const int USA = 2131165587;
 			
 			// aapt resource value: 0x7F070194
-			public const int x_update = 2131165588;
+			public const int Uzbekistan = 2131165588;
 			
 			// aapt resource value: 0x7F070195
-			public const int Yemen = 2131165589;
+			public const int Venezuela = 2131165589;
 			
 			// aapt resource value: 0x7F070196
-			public const int Zambia = 2131165590;
+			public const int Vietnam = 2131165590;
 			
 			// aapt resource value: 0x7F070197
-			public const int Zimbabwe = 2131165591;
+			public const int viewcode = 2131165591;
 			
 			// aapt resource value: 0x7F070198
-			public const int ZoomBack = 2131165592;
+			public const int Viewmode = 2131165592;
+			
+			// aapt resource value: 0x7F070199
+			public const int Wales = 2131165593;
+			
+			// aapt resource value: 0x7F07019A
+			public const int World = 2131165594;
+			
+			// aapt resource value: 0x7F07019B
+			public const int x_new = 2131165595;
+			
+			// aapt resource value: 0x7F07019C
+			public const int x_update = 2131165596;
+			
+			// aapt resource value: 0x7F07019D
+			public const int Yemen = 2131165597;
+			
+			// aapt resource value: 0x7F07019E
+			public const int Zambia = 2131165598;
+			
+			// aapt resource value: 0x7F07019F
+			public const int Zimbabwe = 2131165599;
+			
+			// aapt resource value: 0x7F0701A0
+			public const int ZoomBack = 2131165600;
 			
 			static Drawable()
 			{

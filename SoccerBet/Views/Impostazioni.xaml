@@ -4,7 +4,7 @@
              x:Class="SoccerBet.Views.Impostazioni">
   <ContentView.Content>
       <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
+          <Label Text="Hello Impostazioni!" />
       </StackLayout>
   </ContentView.Content>
 </ContentView>

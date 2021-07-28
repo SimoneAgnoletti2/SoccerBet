@@ -1,9 +1,11 @@
-﻿using System;
+﻿using SoccerBet.Models;
+using SoccerBet.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,20 +16,12 @@ namespace SoccerBet.Views
     {
         public Menu()
         {
-            InitializeComponent(); 
-            navigationDrawer.DrawerWidth = 200;
-            hamburgerButton.Image = (FileImageSource)ImageSource.FromFile("burgericon.png");
-            List<string> list = new List<string>();
-            list.Add("Menu");
-            list.Add("Nuova Schedina");
-            list.Add("Schedine In Corso");
-            list.Add("Storico Schedine");
-            list.Add("Classifiche Campionati");
-            list.Add("Classifiche Giocatori");
-            list.Add("Impostazioni");
-            list.Add("Logout");
-
-            listView.ItemsSource = list;
+            InitializeComponent();
+            BindingContext = new MenuViewModel();
+            navigationDrawer.DrawerWidth = 300;
+            navigationDrawer.ContentView = new Home().Content;
+            hamburgerButton.ImageSource = (FileImageSource)ImageSource.FromFile("burgericon.png");
+            Nome.Text = Preferences.Get("Nome", "");
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)
@@ -36,41 +30,47 @@ namespace SoccerBet.Views
 
         }
 
-        void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
+        private async void Handle_ItemSelected(object sender, Xamarin.Forms.SelectedItemChangedEventArgs e)
         {
-            if (e.SelectedItem.ToString() == "Nuova Schedina")
+            var temp = e.SelectedItem as MenuItemCustom;
+            if (temp.Nome == "Home")
             {
-                navigationDrawer.ContentView = new NuovaSchedina().Content;
-                headerLabel.Text = "Nuova Schedina";
+                navigationDrawer.ContentView = new Home().Content;
+                headerLabel.Text = "Home";
             }
-            else if (e.SelectedItem.ToString() == "Schedine In Corso")
+            else if (temp.Nome == "New Tickets")
             {
-                navigationDrawer.ContentView = new SchedineInCorso().Content;
-                headerLabel.Text = "Schedine In Corso";
+                navigationDrawer.ContentView = new NuovaSchedina();
+                headerLabel.Text = "New Tickets";
             }
-            else if (e.SelectedItem.ToString() == "Storico Schedine")
+            else if (temp.Nome == "Live Tickets")
             {
-                navigationDrawer.ContentView = new StoricoSchedine().Content;
-                headerLabel.Text = "Storico Schedine";
+                navigationDrawer.ContentView = new SchedineInCorso();
+                headerLabel.Text = "Live Tickets";
             }
-            else if (e.SelectedItem.ToString() == "Classifiche Campionati")
+            else if (temp.Nome == "Historical Tickets")
             {
-                navigationDrawer.ContentView = new ClassificheCampionati().Content;
-                headerLabel.Text = "Classifiche Campionati";
+                navigationDrawer.ContentView = new StoricoSchedine();
+                headerLabel.Text = "Historical Tickets";
             }
-            else if (e.SelectedItem.ToString() == "Classifiche Giocatori")
+            else if (temp.Nome == "Standings")
             {
-                navigationDrawer.ContentView = new ClassificheGiocatori().Content;
-                headerLabel.Text = "Classifiche Giocatori";
+                navigationDrawer.ContentView = new ClassificheCampionati();
+                headerLabel.Text = "Standings";
             }
-            else if (e.SelectedItem.ToString() == "Impostazioni")
+            else if (temp.Nome == "Standings Players")
             {
-                navigationDrawer.ContentView = new Impostazioni().Content;
-                headerLabel.Text = "Impostazioni";
+                navigationDrawer.ContentView = new ClassificheGiocatori();
+                headerLabel.Text = "Standings Players";
             }
-            else if (e.SelectedItem.ToString() == "Logout")
+            else if (temp.Nome == "Tools")
             {
-                navigationDrawer.ContentView = new Logout().Content;
+                navigationDrawer.ContentView = new Impostazioni();
+                headerLabel.Text = "Tools";
+            }
+            else if (temp.Nome == "Logout")
+            {
+                navigationDrawer.ContentView = new Logout();
                 headerLabel.Text = "Logout";
             }
             navigationDrawer.ToggleDrawer();

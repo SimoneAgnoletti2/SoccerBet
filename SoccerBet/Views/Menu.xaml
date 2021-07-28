@@ -3,7 +3,7 @@
     xmlns:local="clr-namespace:SoccerBet.Views"
     xmlns:navigationdrawer="clr-namespace:Syncfusion.SfNavigationDrawer.XForms;assembly=Syncfusion.SfNavigationDrawer.XForms"
     x:Class="SoccerBet.Views.Menu" >
-	<Grid>
+	<Grid VerticalOptions="FillAndExpand" HeightRequest="1000">
     <Grid.RowDefinitions>
                 <RowDefinition Height="auto"/>
         <RowDefinition Height="99*"/>
@@ -13,7 +13,7 @@
             <Button x:Name="hamburgerButton" HeightRequest="50" WidthRequest="50" HorizontalOptions="Start" FontSize="20" BackgroundColor="White" Clicked="Handle_Clicked"/>
             <Label x:Name="headerLabel" HeightRequest="50" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Text="Home" FontSize="16" TextColor="#FF4A00" BackgroundColor="White"/>
                 </StackLayout>
-    <navigationdrawer:SfNavigationDrawer Grid.Row="1" x:Name="navigationDrawer" DrawerWidth ="300" DrawerHeaderHeight="160">
+    <navigationdrawer:SfNavigationDrawer Grid.Row="1" x:Name="navigationDrawer" DrawerWidth ="1000" DrawerHeaderHeight="160">
         <navigationdrawer:SfNavigationDrawer.ContentView>
             <Grid x:Name="mainContentView" BackgroundColor="White">
                 <Grid.RowDefinitions>
@@ -30,23 +30,34 @@
                     <RowDefinition Height="40"/>
                 </Grid.RowDefinitions>
                     <Image Source="user.png" HeightRequest="110" Margin="0,10,0,0" BackgroundColor="#FF4A00" VerticalOptions="Center" HorizontalOptions="Center"/>
-                <Label Text="James Pollock" Grid.Row="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
+                    <Label x:Name ="Nome" Grid.Row="1" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="20" TextColor="White"/>
             </Grid>
         </navigationdrawer:SfNavigationDrawer.DrawerHeaderView>
-            <navigationdrawer:SfNavigationDrawer.DrawerContentView>
-                <ListView x:Name="listView" ItemSelected ="Handle_ItemSelected">
+            <navigationdrawer:SfNavigationDrawer.DrawerContentView BackgroundColor="White">
+                <ListView x:Name="listView" ItemsSource="{Binding MenuItem}" ItemSelected ="Handle_ItemSelected" BackgroundColor="White" >
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <StackLayout HeightRequest="40" BackgroundColor="White">
-                                    <Image Aspect="AspectFit" Source="{Binding image}"></Image>
-                                    <Label Margin="10,7,0,0" Text="{Binding }" TextColor="Black" FontSize="16"/>
-                                </StackLayout>
+                                <Grid HeightRequest="50"  BackgroundColor="White" >
+
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="40"/>
+                                        <ColumnDefinition Width="260"/>
+                                    </Grid.ColumnDefinitions>
+                                    
+                                    <Image Grid.Column="0" HorizontalOptions="StartAndExpand" Margin="10,7,0,0" HeightRequest="30" WidthRequest="30" Aspect="AspectFit" Source="{Binding Immagine}" VerticalOptions="CenterAndExpand"></Image>
+                                    <Label Grid.Column="1"  HorizontalOptions="StartAndExpand" Margin="0,7,0,0" Text="{Binding Nome}" TextColor="Black" FontSize="16" HorizontalTextAlignment="Start" VerticalOptions="CenterAndExpand"/>
+                                </Grid>
                             </ViewCell>
                         </DataTemplate>
                     </ListView.ItemTemplate>
                 </ListView>
             </navigationdrawer:SfNavigationDrawer.DrawerContentView>
+            <navigationdrawer:SfNavigationDrawer.DrawerFooterView>
+                <Grid x:Name="footerLayout" BackgroundColor="White"  >
+                    <Label x:Name="footer"  FontSize="14" TextColor="Black"  VerticalTextAlignment="End" HorizontalTextAlignment="Center" Text="Version 1.0.0.0"  />
+                </Grid>
+            </navigationdrawer:SfNavigationDrawer.DrawerFooterView>
         </navigationdrawer:SfNavigationDrawer>
     </Grid>
 </ContentPage>
