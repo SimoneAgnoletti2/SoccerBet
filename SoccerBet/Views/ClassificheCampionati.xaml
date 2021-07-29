@@ -2,15 +2,30 @@
 <ContentView      xmlns="http://xamarin.com/schemas/2014/forms"
                   xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
                   xmlns:syncfusion="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+                     xmlns:local="clr-namespace:SoccerBet" 
+                  xmlns:local1="clr-namespace:SoccerBet.Helper"
                   x:Class="SoccerBet.Views.ClassificheCampionati">
 
 
     <ContentView.Content>
-        <syncfusion:SfListView x:Name="listView" ItemsSource="{Binding ListaCountry}" ItemSpacing="1" SelectionMode="None" BackgroundColor="#F0F0F0" ItemSize="100">
+        <syncfusion:SfListView x:Name="listView" ItemTapped="listView_ItemTapped"  ItemHolding="listView_ItemHolding" ItemsSource="{Binding ListaCountry}" SelectionChanged="ListView_SelectionChanged" SelectionBackgroundColor="#ff4a00" FocusBorderColor="#ff4a00" ItemSpacing="1" SelectionMode="Multiple" BackgroundColor="#F0F0F0" ItemSize="140">
+            <syncfusion:SfListView.Behaviors>
+                <local1:Behavior/>
+            </syncfusion:SfListView.Behaviors>
             <syncfusion:SfListView.ItemTemplate>
                 <DataTemplate x:Name="ItemTemplate">
-                    <Frame OutlineColor="#b3b3b3" Padding="2" HeightRequest="100" WidthRequest="100">
-                        <Image Source="{Binding LinkImage}" HeightRequest="100" WidthRequest="100" Aspect="AspectFit"/>
+                    <Frame Margin="5, 5, 5, 5" Padding="0,0,0,0"  HeightRequest="150" WidthRequest="130"  BorderColor="Black" BackgroundColor="white" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                        <StackLayout Margin="0" >
+                            <StackLayout Padding="30, 20, 30, 10" HeightRequest="53" WidthRequest="80" HorizontalOptions="CenterAndExpand"  >
+                                <StackLayout Padding="1"  BackgroundColor="Black" >
+                                    <Image Source="{Binding LinkImage}" HeightRequest="53" WidthRequest="80" Aspect="Fill" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand">
+                                    </Image>
+                                </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand">
+                                <Label Text="{Binding Nome}" FontAttributes="Bold" LineBreakMode="WordWrap" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" />
+                            </StackLayout>
+                        </StackLayout>
                     </Frame>
                 </DataTemplate>
             </syncfusion:SfListView.ItemTemplate>

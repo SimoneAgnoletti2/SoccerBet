@@ -19,5 +19,20 @@ namespace SoccerBet.Views
             InitializeComponent();
             BindingContext = new ClassificheCampionatiViewModel();
         }
+
+        private void ListView_SelectionChanged(object sender, Syncfusion.ListView.XForms.ItemSelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void listView_ItemHolding(object sender, Syncfusion.ListView.XForms.ItemHoldingEventArgs e)
+        {
+
+        }
+
+        private void listView_ItemTapped(object sender, Syncfusion.ListView.XForms.ItemTappedEventArgs e)
+        {
+
+        }
     }
 }
