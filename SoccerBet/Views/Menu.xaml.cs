@@ -37,43 +37,49 @@ namespace SoccerBet.Views
             {
                 navigationDrawer.ContentView = new Home().Content;
                 headerLabel.Text = "Home";
+                navigationDrawer.ToggleDrawer();
             }
             else if (temp.Nome == "New Tickets")
             {
                 navigationDrawer.ContentView = new NuovaSchedina();
                 headerLabel.Text = "New Tickets";
+                navigationDrawer.ToggleDrawer();
             }
             else if (temp.Nome == "Live Tickets")
             {
                 navigationDrawer.ContentView = new SchedineInCorso();
                 headerLabel.Text = "Live Tickets";
+                navigationDrawer.ToggleDrawer();
             }
             else if (temp.Nome == "Historical Tickets")
             {
                 navigationDrawer.ContentView = new StoricoSchedine();
                 headerLabel.Text = "Historical Tickets";
+                navigationDrawer.ToggleDrawer();
             }
             else if (temp.Nome == "Standings")
             {
                 navigationDrawer.ContentView = new ClassificheCampionati();
                 headerLabel.Text = "Standings";
+                navigationDrawer.ToggleDrawer();
             }
             else if (temp.Nome == "Standings Players")
             {
                 navigationDrawer.ContentView = new ClassificheGiocatori();
                 headerLabel.Text = "Standings Players";
+                navigationDrawer.ToggleDrawer();
             }
             else if (temp.Nome == "Tools")
             {
                 navigationDrawer.ContentView = new Impostazioni();
                 headerLabel.Text = "Tools";
+                navigationDrawer.ToggleDrawer();
             }
             else if (temp.Nome == "Logout")
             {
                 navigationDrawer.ContentView = new Logout();
                 headerLabel.Text = "Logout";
             }
-            navigationDrawer.ToggleDrawer();
 
 
         }

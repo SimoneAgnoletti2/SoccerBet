@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SoccerBet.Controls;
+using SoccerBet.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,9 @@ namespace SoccerBet.Views
         public Logout()
         {
             InitializeComponent();
+            DatabaseUser dbu = new DatabaseUser();
+            Task<Utente> task = Task.Run<Utente>(async () => await dbu.setMantainUserDisable());
+            Application.Current.MainPage = new NavigationPage(new Login());
         }
     }
 }
