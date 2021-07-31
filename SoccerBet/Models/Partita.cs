@@ -43,6 +43,7 @@ namespace SoccerBet.Models
             NomeCasa = nomeCasa;
             LinkCasa = linkCasa;
             NomeFuori = nomeFuori;
+            LinkFuori = linkFuori;
             Orario = orario;
             Risultato = risultato;
             Data = data;
