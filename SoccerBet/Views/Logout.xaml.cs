@@ -19,6 +19,7 @@ namespace SoccerBet.Views
             InitializeComponent();
             DatabaseUser dbu = new DatabaseUser();
             Task<Utente> task = Task.Run<Utente>(async () => await dbu.setMantainUserDisable());
+
             Application.Current.MainPage = new NavigationPage(new Login());
         }
     }
