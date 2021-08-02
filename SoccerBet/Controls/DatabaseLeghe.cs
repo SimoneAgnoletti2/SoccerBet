@@ -8,15 +8,15 @@ using Xamarin.Forms;
 
 namespace SoccerBet.Controls
 {
-    public class DatabasePaesi
+    public class DatabaseLeghe
     {
-        public async Task<bool> CreateTablePaese()
+        public async Task<bool> CreateTableLega()
         {
             try
             {
                 SQLiteAsyncConnection Database = DependencyService.Get<IDatabaseConnectionAsync>().DbConnectionAsync();
 
-                await Database.CreateTableAsync(typeof(Paese));
+                await Database.CreateTableAsync(typeof(Lega));
                 return true;
             }
             catch (Exception ex)
@@ -45,12 +45,12 @@ namespace SoccerBet.Controls
                 return false;
             }
         }
-        public async Task<bool> DropTablePaese()
+        public async Task<bool> DropTableLega()
         {
             try
             {
                 SQLiteAsyncConnection Database = DependencyService.Get<IDatabaseConnectionAsync>().DbConnectionAsync();
-                List<Utente> v = await Database.QueryAsync<Utente>("DROP TABLE Paese");
+                List<Utente> v = await Database.QueryAsync<Utente>("DROP TABLE Lega");
                 return true;
             }
             catch (Exception ex)
@@ -60,12 +60,12 @@ namespace SoccerBet.Controls
         }
 
 
-        public async Task<List<Paese>> getPaesi()
+        public async Task<List<Lega>> getLeghe()
         {
             try
             {
                 SQLiteAsyncConnection Database = DependencyService.Get<IDatabaseConnectionAsync>().DbConnectionAsync();
-                List<Paese> v = await Database.QueryAsync<Paese>("SELECT * FROM Paese ORDER BY Valida, Nome ");
+                List<Lega> v = await Database.QueryAsync<Lega>("SELECT * FROM Lega ORDER BY Nome");
                 {
                     return v;
                 }
@@ -77,7 +77,7 @@ namespace SoccerBet.Controls
         }
 
 
-        public async Task<bool> InsPaese(Paese p)
+        public async Task<bool> InsLega(Lega p)
         {
             try
             {

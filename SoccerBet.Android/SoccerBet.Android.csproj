@@ -164,529 +164,529 @@
     <AndroidResource Include="Resources\drawable\burgericon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Africa.png" />
+    <AndroidResource Include="Resources\drawable\Africa.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Albania.png" />
+    <AndroidResource Include="Resources\drawable\Albania.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Algeria.png" />
+    <AndroidResource Include="Resources\drawable\Algeria.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Andorra.png" />
+    <AndroidResource Include="Resources\drawable\Andorra.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Angola.png" />
+    <AndroidResource Include="Resources\drawable\Angola.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Argentina.png" />
+    <AndroidResource Include="Resources\drawable\Argentina.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Armenia.png" />
+    <AndroidResource Include="Resources\drawable\Armenia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Aruba.png" />
+    <AndroidResource Include="Resources\drawable\Aruba.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Asia.png" />
+    <AndroidResource Include="Resources\drawable\Asia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Australia.png" />
+    <AndroidResource Include="Resources\drawable\Australia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Australia_and_Oceania.png" />
+    <AndroidResource Include="Resources\drawable\Australia_and_Oceania.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Austria.png" />
+    <AndroidResource Include="Resources\drawable\Austria.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Azerbaijan.png" />
+    <AndroidResource Include="Resources\drawable\Azerbaijan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Bahrain.png" />
+    <AndroidResource Include="Resources\drawable\Bahrain.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Bangladesh.png" />
+    <AndroidResource Include="Resources\drawable\Bangladesh.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Belarus.png" />
+    <AndroidResource Include="Resources\drawable\Belarus.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Belgium.png" />
+    <AndroidResource Include="Resources\drawable\Belgium.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Benin.png" />
+    <AndroidResource Include="Resources\drawable\Benin.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Bermuda.png" />
+    <AndroidResource Include="Resources\drawable\Bermuda.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Bolivia.png" />
+    <AndroidResource Include="Resources\drawable\Bolivia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Bosnia_and_Herzegovina.png" />
+    <AndroidResource Include="Resources\drawable\Bosnia_and_Herzegovina.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Botswana.png" />
+    <AndroidResource Include="Resources\drawable\Botswana.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Brazil.png" />
+    <AndroidResource Include="Resources\drawable\Brazil.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Bulgaria.png" />
+    <AndroidResource Include="Resources\drawable\Bulgaria.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Burkina_Faso.png" />
+    <AndroidResource Include="Resources\drawable\Burkina_Faso.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Burundi.png" />
+    <AndroidResource Include="Resources\drawable\Burundi.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Cambodia.png" />
+    <AndroidResource Include="Resources\drawable\Cambodia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Cameroon.png" />
+    <AndroidResource Include="Resources\drawable\Cameroon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Canada.png" />
+    <AndroidResource Include="Resources\drawable\Canada.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Cape_Verde.png" />
+    <AndroidResource Include="Resources\drawable\Cape_Verde.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Chile.png" />
+    <AndroidResource Include="Resources\drawable\Chile.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\China.png" />
+    <AndroidResource Include="Resources\drawable\China.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Colombia.png" />
+    <AndroidResource Include="Resources\drawable\Colombia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Costa_Rica.png" />
+    <AndroidResource Include="Resources\drawable\Costa_Rica.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Croatia.png" />
+    <AndroidResource Include="Resources\drawable\Croatia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Curacao.png" />
+    <AndroidResource Include="Resources\drawable\Curacao.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Cyprus.png" />
+    <AndroidResource Include="Resources\drawable\Cyprus.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Czech_Republic.png" />
+    <AndroidResource Include="Resources\drawable\Czech_Republic.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Denmark.png" />
+    <AndroidResource Include="Resources\drawable\Denmark.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Djibouti.png" />
+    <AndroidResource Include="Resources\drawable\Djibouti.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Dominican_Republic.png" />
+    <AndroidResource Include="Resources\drawable\Dominican_Republic.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\DR_Congo.png" />
+    <AndroidResource Include="Resources\drawable\DR_Congo.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Ecuador.png" />
+    <AndroidResource Include="Resources\drawable\Ecuador.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Egypt.png" />
+    <AndroidResource Include="Resources\drawable\Egypt.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\El_Salvador.png" />
+    <AndroidResource Include="Resources\drawable\El_Salvador.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\England.png" />
+    <AndroidResource Include="Resources\drawable\England.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Estonia.png" />
+    <AndroidResource Include="Resources\drawable\Estonia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Eswatini.png" />
+    <AndroidResource Include="Resources\drawable\Eswatini.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Ethiopia.png" />
+    <AndroidResource Include="Resources\drawable\Ethiopia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Europe.png" />
+    <AndroidResource Include="Resources\drawable\Europe.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Faroe_Islands.png" />
+    <AndroidResource Include="Resources\drawable\Faroe_Islands.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Fiji.png" />
+    <AndroidResource Include="Resources\drawable\Fiji.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Finland.png" />
+    <AndroidResource Include="Resources\drawable\Finland.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\France.png" />
+    <AndroidResource Include="Resources\drawable\France.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Gabon.png" />
+    <AndroidResource Include="Resources\drawable\Gabon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Gambia.png" />
+    <AndroidResource Include="Resources\drawable\Gambia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Georgia.png" />
+    <AndroidResource Include="Resources\drawable\Georgia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Germany.png" />
+    <AndroidResource Include="Resources\drawable\Germany.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Ghana.png" />
+    <AndroidResource Include="Resources\drawable\Ghana.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Gibraltar.png" />
+    <AndroidResource Include="Resources\drawable\Gibraltar.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Greece.png" />
+    <AndroidResource Include="Resources\drawable\Greece.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Guatemala.png" />
+    <AndroidResource Include="Resources\drawable\Guatemala.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Guinea.png" />
+    <AndroidResource Include="Resources\drawable\Guinea.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Haiti.png" />
+    <AndroidResource Include="Resources\drawable\Haiti.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Honduras.png" />
+    <AndroidResource Include="Resources\drawable\Honduras.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Hong_Kong.png" />
+    <AndroidResource Include="Resources\drawable\Hong_Kong.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Hungary.png" />
+    <AndroidResource Include="Resources\drawable\Hungary.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Iceland.png" />
+    <AndroidResource Include="Resources\drawable\Iceland.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\India.png" />
+    <AndroidResource Include="Resources\drawable\India.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Indonesia.png" />
+    <AndroidResource Include="Resources\drawable\Indonesia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Iran.png" />
+    <AndroidResource Include="Resources\drawable\Iran.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Iraq.png" />
+    <AndroidResource Include="Resources\drawable\Iraq.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Ireland.png" />
+    <AndroidResource Include="Resources\drawable\Ireland.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Israel.png" />
+    <AndroidResource Include="Resources\drawable\Israel.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Italy.png" />
+    <AndroidResource Include="Resources\drawable\Italy.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Ivory_Coast.png" />
+    <AndroidResource Include="Resources\drawable\Ivory_Coast.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Jamaica.png" />
+    <AndroidResource Include="Resources\drawable\Jamaica.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Japan.png" />
+    <AndroidResource Include="Resources\drawable\Japan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Jordan.png" />
+    <AndroidResource Include="Resources\drawable\Jordan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Kazakhstan.png" />
+    <AndroidResource Include="Resources\drawable\Kazakhstan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Kenya.png" />
+    <AndroidResource Include="Resources\drawable\Kenya.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Kosovo.png" />
+    <AndroidResource Include="Resources\drawable\Kosovo.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Kuwait.png" />
+    <AndroidResource Include="Resources\drawable\Kuwait.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Kyrgyzstan.png" />
+    <AndroidResource Include="Resources\drawable\Kyrgyzstan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Laos.png" />
+    <AndroidResource Include="Resources\drawable\Laos.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Latvia.png" />
+    <AndroidResource Include="Resources\drawable\Latvia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Lebanon.png" />
+    <AndroidResource Include="Resources\drawable\Lebanon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Lesotho.png" />
+    <AndroidResource Include="Resources\drawable\Lesotho.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Liberia.png" />
+    <AndroidResource Include="Resources\drawable\Liberia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Libya.png" />
+    <AndroidResource Include="Resources\drawable\Libya.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Liechtenstein.png" />
+    <AndroidResource Include="Resources\drawable\Liechtenstein.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Lithuania.png" />
+    <AndroidResource Include="Resources\drawable\Lithuania.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Luxembourg.png" />
+    <AndroidResource Include="Resources\drawable\Luxembourg.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Macao.png" />
+    <AndroidResource Include="Resources\drawable\Macao.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Malawi.png" />
+    <AndroidResource Include="Resources\drawable\Malawi.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Malaysia.png" />
+    <AndroidResource Include="Resources\drawable\Malaysia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Maldives.png" />
+    <AndroidResource Include="Resources\drawable\Maldives.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Mali.png" />
+    <AndroidResource Include="Resources\drawable\Mali.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Malta.png" />
+    <AndroidResource Include="Resources\drawable\Malta.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Mauritania.png" />
+    <AndroidResource Include="Resources\drawable\Mauritania.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Mauritius.png" />
+    <AndroidResource Include="Resources\drawable\Mauritius.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Mexico.png" />
+    <AndroidResource Include="Resources\drawable\Mexico.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Moldova.png" />
+    <AndroidResource Include="Resources\drawable\Moldova.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Mongolia.png" />
+    <AndroidResource Include="Resources\drawable\Mongolia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Montenegro.png" />
+    <AndroidResource Include="Resources\drawable\Montenegro.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Morocco.png" />
+    <AndroidResource Include="Resources\drawable\Morocco.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Mozambique.png" />
+    <AndroidResource Include="Resources\drawable\Mozambique.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Myanmar.png" />
+    <AndroidResource Include="Resources\drawable\Myanmar.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Namibia.png" />
+    <AndroidResource Include="Resources\drawable\Namibia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Netherlands.png" />
+    <AndroidResource Include="Resources\drawable\Netherlands.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\New_Zealand.png" />
+    <AndroidResource Include="Resources\drawable\New_Zealand.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Nicaragua.png" />
+    <AndroidResource Include="Resources\drawable\Nicaragua.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Niger.png" />
+    <AndroidResource Include="Resources\drawable\Niger.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Nigeria.png" />
+    <AndroidResource Include="Resources\drawable\Nigeria.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\North_and_Central_America.png" />
+    <AndroidResource Include="Resources\drawable\North_and_Central_America.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\North_Macedonia.png" />
+    <AndroidResource Include="Resources\drawable\North_Macedonia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Northern_Ireland.png" />
+    <AndroidResource Include="Resources\drawable\Northern_Ireland.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Norway.png" />
+    <AndroidResource Include="Resources\drawable\Norway.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Oman.png" />
+    <AndroidResource Include="Resources\drawable\Oman.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Pakistan.png" />
+    <AndroidResource Include="Resources\drawable\Pakistan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Palestine.png" />
+    <AndroidResource Include="Resources\drawable\Palestine.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Panama.png" />
+    <AndroidResource Include="Resources\drawable\Panama.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Paraguay.png" />
+    <AndroidResource Include="Resources\drawable\Paraguay.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Peru.png" />
+    <AndroidResource Include="Resources\drawable\Peru.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Philippines.png" />
+    <AndroidResource Include="Resources\drawable\Philippines.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Poland.png" />
+    <AndroidResource Include="Resources\drawable\Poland.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Portugal.png" />
+    <AndroidResource Include="Resources\drawable\Portugal.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Qatar.png" />
+    <AndroidResource Include="Resources\drawable\Qatar.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Republic_of_the_Congo.png" />
+    <AndroidResource Include="Resources\drawable\Republic_of_the_Congo.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Reunion.png" />
+    <AndroidResource Include="Resources\drawable\Reunion.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Romania.png" />
+    <AndroidResource Include="Resources\drawable\Romania.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Russia.png" />
+    <AndroidResource Include="Resources\drawable\Russia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Rwanda.png" />
+    <AndroidResource Include="Resources\drawable\Rwanda.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\San_Marino.png" />
+    <AndroidResource Include="Resources\drawable\San_Marino.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Saudi_Arabia.png" />
+    <AndroidResource Include="Resources\drawable\Saudi_Arabia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Scotland.png" />
+    <AndroidResource Include="Resources\drawable\Scotland.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Senegal.png" />
+    <AndroidResource Include="Resources\drawable\Senegal.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Serbia.png" />
+    <AndroidResource Include="Resources\drawable\Serbia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Seychelles.png" />
+    <AndroidResource Include="Resources\drawable\Seychelles.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Sierra_Leone.png" />
+    <AndroidResource Include="Resources\drawable\Sierra_Leone.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Singapore.png" />
+    <AndroidResource Include="Resources\drawable\Singapore.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Slovakia.png" />
+    <AndroidResource Include="Resources\drawable\Slovakia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Slovenia.png" />
+    <AndroidResource Include="Resources\drawable\Slovenia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Somalia.png" />
+    <AndroidResource Include="Resources\drawable\Somalia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\South_Africa.png" />
+    <AndroidResource Include="Resources\drawable\South_Africa.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\South_America.png" />
+    <AndroidResource Include="Resources\drawable\South_America.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\South_Korea.png" />
+    <AndroidResource Include="Resources\drawable\South_Korea.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Spain.png" />
+    <AndroidResource Include="Resources\drawable\Spain.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Sri_Lanka.png" />
+    <AndroidResource Include="Resources\drawable\Sri_Lanka.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Sudan.png" />
+    <AndroidResource Include="Resources\drawable\Sudan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Sweden.png" />
+    <AndroidResource Include="Resources\drawable\Sweden.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Switzerland.png" />
+    <AndroidResource Include="Resources\drawable\Switzerland.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Syria.png" />
+    <AndroidResource Include="Resources\drawable\Syria.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Taiwan.png" />
+    <AndroidResource Include="Resources\drawable\Taiwan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Tajikistan.png" />
+    <AndroidResource Include="Resources\drawable\Tajikistan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Tanzania.png" />
+    <AndroidResource Include="Resources\drawable\Tanzania.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Thailand.png" />
+    <AndroidResource Include="Resources\drawable\Thailand.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Togo.png" />
+    <AndroidResource Include="Resources\drawable\Togo.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Trinidad_and_Tobago.png" />
+    <AndroidResource Include="Resources\drawable\Trinidad_and_Tobago.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Tunisia.png" />
+    <AndroidResource Include="Resources\drawable\Tunisia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Turkey.png" />
+    <AndroidResource Include="Resources\drawable\Turkey.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Turkmenistan.png" />
+    <AndroidResource Include="Resources\drawable\Turkmenistan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Uganda.png" />
+    <AndroidResource Include="Resources\drawable\Uganda.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Ukraine.png" />
+    <AndroidResource Include="Resources\drawable\Ukraine.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\United_Arab_Emirates.png" />
+    <AndroidResource Include="Resources\drawable\United_Arab_Emirates.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Uruguay.png" />
+    <AndroidResource Include="Resources\drawable\Uruguay.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\USA.png" />
+    <AndroidResource Include="Resources\drawable\USA.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Uzbekistan.png" />
+    <AndroidResource Include="Resources\drawable\Uzbekistan.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Venezuela.png" />
+    <AndroidResource Include="Resources\drawable\Venezuela.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Vietnam.png" />
+    <AndroidResource Include="Resources\drawable\Vietnam.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Wales.png" />
+    <AndroidResource Include="Resources\drawable\Wales.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\World.png" />
+    <AndroidResource Include="Resources\drawable\World.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Yemen.png" />
+    <AndroidResource Include="Resources\drawable\Yemen.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Zambia.png" />
+    <AndroidResource Include="Resources\drawable\Zambia.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\Zimbabwe.png" />
+    <AndroidResource Include="Resources\drawable\Zimbabwe.png" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable\newtickets.png" />
@@ -710,7 +710,7 @@
     <AndroidResource Include="Resources\drawable\logout.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\Bandiere\menu.png" />
+    <AndroidResource Include="Resources\drawable\menu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

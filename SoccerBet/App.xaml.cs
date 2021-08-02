@@ -21,8 +21,8 @@ namespace SoccerBet
             var user = task.Result;
             if (user != null)
             {
-                Preferences.Set("Nome", user.Nome);
-                MainPage = new NavigationPage(new Views.Menu());
+                Preferences.Set("Nome", user.Nome); 
+                Application.Current.MainPage = new Views.Menu();
             }
             else
             {
