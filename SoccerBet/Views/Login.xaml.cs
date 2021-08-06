@@ -19,7 +19,7 @@ namespace SoccerBet.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Login : ContentPage
     {
-        public int progress = 0;
+        public double progress = 0;
         public Login()
         {
             InitializeComponent();
@@ -109,7 +109,7 @@ namespace SoccerBet.Views
                         popola = await popolaDb();
 
 
-                        progress++;
+                        progress += 0.6;
                         if (progress > 100)
                             progress = 100;
                         progressBar.SetProgress(progress, 20, Easing.SpringIn);
@@ -147,7 +147,7 @@ namespace SoccerBet.Views
         public async Task<bool> popolaDb()
         {
             await popolaDbCountries();
-            //await popolaDbLeague();
+            await popolaDbLeague();
             return true;
         }
 
@@ -193,7 +193,7 @@ namespace SoccerBet.Views
 
                                     await dbu.CreateTableUser();
                                     await dbu.InsUser(u);
-                                    progress++;
+                                    progress += 0.6;
                                     if (progress > 100)
                                           progress = 100;
                                     progressBar.SetProgress(progress, 0, Easing.SpringIn);
@@ -247,7 +247,7 @@ namespace SoccerBet.Views
                 connection.Open();
                 if (connection.State == ConnectionState.Open)
                 {
-                    string query = "SELECT Id, Nome, LinkImage, Valida FROM Paese WHERE Valida = 1";
+                    string query = "SELECT Id, Nome, LinkImage, Valida FROM Paese";
                     SqlCommand command = new SqlCommand(query, connection);
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
@@ -257,12 +257,67 @@ namespace SoccerBet.Views
                             paese.Id = reader.GetInt32(0);
                             paese.Nome = reader.GetString(1);
                             paese.LinkImage = reader.GetString(2);
-                            paese.Valido = reader.GetInt32(3);
-                            paese.Preferito = 0;
+                            paese.Valida = reader.GetInt32(3);
 
                             await dbc.InsPaese(paese);
 
-                            progress++;
+                            progress += 0.6;
+                            if (progress > 100)
+                                progress = 100;
+                            progressBar.SetProgress(progress, 0, Easing.SinIn);
+
+                        }
+
+                    }
+                    connection.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        public async Task popolaDbLeague()
+        {
+            DatabaseLeghe dbc = new DatabaseLeghe();
+
+            if (!dbc.TableExist("Lega"))
+            {
+                await dbc.CreateTableLega();
+            }
+            else
+            {
+                await dbc.DropTableLega();
+                await dbc.CreateTableLega();
+            }
+
+            Lega lega = new Lega();
+
+            SqlConnection connection;
+            string connectionString;
+            connectionString = @"Data Source=pinexp.ns0.it\MIOSERVER,65004;" + "Initial Catalog=Soccer;" + @"User id=sa;" + "Password=Pinexp93;";
+            connection = new SqlConnection(connectionString);
+            try
+            {
+                connection.Open();
+                if (connection.State == ConnectionState.Open)
+                {
+                    string query = "SELECT id, IdPaese, Nome, FROM Lega";
+                    SqlCommand command = new SqlCommand(query, connection);
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            lega = new Lega();
+                            lega.Id = reader.GetInt32(0);
+                            lega.IdPaese = reader.GetInt32(1);
+                            lega.Nome = reader.GetString(2);
+                            lega.LinkImage = reader.GetString(3);
+
+                            await dbc.InsLega(lega);
+
+                            progress += 0.6;
                             if (progress > 100)
                                 progress = 100;
                             progressBar.SetProgress(progress, 0, Easing.SinIn);

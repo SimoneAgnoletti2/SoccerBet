@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 ﻿using Syncfusion.ListView.XForms;
 using System;
+=======
+﻿using System;
+>>>>>>> 228e1626cf76f5fd7a5f7f227cd8f66c91c5c3f2
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +21,7 @@ namespace SoccerBet.Views
         {
             InitializeComponent();
         }
+<<<<<<< HEAD
 
         private void listView_ScrollStateChanged(object sender, Syncfusion.ListView.XForms.ScrollStateChangedEventArgs e)
         {
@@ -35,5 +40,7 @@ namespace SoccerBet.Views
                 //}
             }
         }
+=======
+>>>>>>> 228e1626cf76f5fd7a5f7f227cd8f66c91c5c3f2
     }
 }

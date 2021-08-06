@@ -46,7 +46,7 @@ namespace SoccerBet.ViewModels
             lsc = task.Result;
             foreach (Paese p in lsc)
             {
-                p.LinkImage = "Bandiere/" + p.LinkImage;
+                p.LinkImage = p.LinkImage;
                 ListaCountry.Add(p);
             }
             SelectionChanged = new Command<ItemSelectionChangedEventArgs>(OnSelectionChanged);

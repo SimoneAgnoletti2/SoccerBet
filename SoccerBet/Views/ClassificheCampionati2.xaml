@@ -5,6 +5,10 @@
              xmlns:sflistview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
              xmlns:expander="clr-namespace:Syncfusion.XForms.Expander;assembly=Syncfusion.Expander.XForms">
     <ContentPage.Content>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 228e1626cf76f5fd7a5f7f227cd8f66c91c5c3f2
         <Grid x:Name="mainGrid" BackgroundColor="#F0F0F0" Padding="4">
             <sflistview:SfListView x:Name="listView" FocusBorderThickness="0" IsScrollBarVisible="False" ScrollStateChanged="listView_ScrollStateChanged"
                                    ItemSpacing="0" SelectionMode="None" AutoFitMode="DynamicHeight" ItemsSource="{Binding ContactsInfo}">
@@ -112,5 +116,9 @@
                 </sflistview:SfListView.ItemTemplate>
             </sflistview:SfListView>
         </Grid>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 228e1626cf76f5fd7a5f7f227cd8f66c91c5c3f2
     </ContentPage.Content>
 </ContentPage>
